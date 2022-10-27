@@ -62,7 +62,7 @@ public class main extends javax.swing.JFrame {
                 listaArticulosBtnActionPerformed(evt);
             }
         });
-        getContentPane().add(listaArticulosBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 470, 370, 100));
+        getContentPane().add(listaArticulosBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 520, 340, 80));
 
         altaArticuloBtn.setBackground(new java.awt.Color(255, 51, 51));
         altaArticuloBtn.setFont(new java.awt.Font("Circus", 0, 36)); // NOI18N
@@ -73,7 +73,7 @@ public class main extends javax.swing.JFrame {
                 altaArticuloBtnActionPerformed(evt);
             }
         });
-        getContentPane().add(altaArticuloBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 350, 370, 100));
+        getContentPane().add(altaArticuloBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 420, 340, 80));
 
         altaEmpleadoBtn.setBackground(new java.awt.Color(255, 51, 51));
         altaEmpleadoBtn.setFont(new java.awt.Font("Circus", 0, 36)); // NOI18N
@@ -84,7 +84,7 @@ public class main extends javax.swing.JFrame {
                 altaEmpleadoBtnActionPerformed(evt);
             }
         });
-        getContentPane().add(altaEmpleadoBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 350, 370, 100));
+        getContentPane().add(altaEmpleadoBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 420, 350, 80));
 
         salirBtn.setBackground(new java.awt.Color(255, 51, 51));
         salirBtn.setFont(new java.awt.Font("Circus", 0, 36)); // NOI18N
@@ -95,7 +95,7 @@ public class main extends javax.swing.JFrame {
                 salirBtnActionPerformed(evt);
             }
         });
-        getContentPane().add(salirBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 590, 240, 90));
+        getContentPane().add(salirBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 610, 230, 70));
 
         ListaEmpleadoBtn.setBackground(new java.awt.Color(255, 51, 51));
         ListaEmpleadoBtn.setFont(new java.awt.Font("Circus", 0, 36)); // NOI18N
@@ -106,10 +106,10 @@ public class main extends javax.swing.JFrame {
                 ListaEmpleadoBtnActionPerformed(evt);
             }
         });
-        getContentPane().add(ListaEmpleadoBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 470, 370, 100));
+        getContentPane().add(ListaEmpleadoBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 520, 350, 80));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/principal.jpg"))); // NOI18N
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1233, 691));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1080, 880));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

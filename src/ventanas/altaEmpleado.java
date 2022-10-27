@@ -44,7 +44,7 @@ public class altaEmpleado extends javax.swing.JFrame {
                 volverBtnActionPerformed(evt);
             }
         });
-        getContentPane().add(volverBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 520, 270, 100));
+        getContentPane().add(volverBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 570, 270, 100));
 
         artistaBtn.setBackground(new java.awt.Color(255, 51, 51));
         artistaBtn.setFont(new java.awt.Font("Circus", 0, 36)); // NOI18N
@@ -55,7 +55,7 @@ public class altaEmpleado extends javax.swing.JFrame {
                 artistaBtnActionPerformed(evt);
             }
         });
-        getContentPane().add(artistaBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 370, 310, 100));
+        getContentPane().add(artistaBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 420, 310, 100));
 
         trabajadorBtn.setBackground(new java.awt.Color(255, 51, 51));
         trabajadorBtn.setFont(new java.awt.Font("Circus", 0, 36)); // NOI18N
@@ -66,10 +66,10 @@ public class altaEmpleado extends javax.swing.JFrame {
                 trabajadorBtnActionPerformed(evt);
             }
         });
-        getContentPane().add(trabajadorBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(203, 370, 310, 100));
+        getContentPane().add(trabajadorBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 420, 310, 100));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/RegEmpl.jpg"))); // NOI18N
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1233, 691));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1233, 920));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

@@ -45,7 +45,7 @@ public class altaArticulo extends javax.swing.JFrame {
                 alimentoBtnActionPerformed(evt);
             }
         });
-        getContentPane().add(alimentoBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 370, 310, 100));
+        getContentPane().add(alimentoBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 440, 270, 80));
 
         volverBtn.setBackground(new java.awt.Color(255, 51, 51));
         volverBtn.setFont(new java.awt.Font("Circus", 0, 36)); // NOI18N
@@ -56,7 +56,7 @@ public class altaArticulo extends javax.swing.JFrame {
                 volverBtnActionPerformed(evt);
             }
         });
-        getContentPane().add(volverBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 520, 270, 100));
+        getContentPane().add(volverBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 560, 220, 80));
 
         insumoBtn.setBackground(new java.awt.Color(255, 51, 51));
         insumoBtn.setFont(new java.awt.Font("Circus", 0, 36)); // NOI18N
@@ -67,7 +67,7 @@ public class altaArticulo extends javax.swing.JFrame {
                 insumoBtnActionPerformed(evt);
             }
         });
-        getContentPane().add(insumoBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 370, 310, 100));
+        getContentPane().add(insumoBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 440, 270, 80));
 
         merchBtn.setBackground(new java.awt.Color(255, 51, 51));
         merchBtn.setFont(new java.awt.Font("Circus", 0, 36)); // NOI18N
@@ -78,11 +78,11 @@ public class altaArticulo extends javax.swing.JFrame {
                 merchBtnActionPerformed(evt);
             }
         });
-        getContentPane().add(merchBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 370, 310, 100));
+        getContentPane().add(merchBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 440, 270, 80));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/altaArticulo.jpg"))); // NOI18N
         jLabel1.setToolTipText("");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1233, 691));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1233, 950));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

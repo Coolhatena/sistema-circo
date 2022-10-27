@@ -57,39 +57,39 @@ public class altaInsumo extends javax.swing.JFrame {
 
         jLabel3.setBackground(new java.awt.Color(0, 0, 0));
         jLabel3.setFont(new java.awt.Font("Circus", 0, 36)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel3.setForeground(new java.awt.Color(204, 0, 0));
         jLabel3.setText("Nombre:");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 300, -1, -1));
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 300, -1, -1));
 
         jLabel4.setBackground(new java.awt.Color(0, 0, 0));
         jLabel4.setFont(new java.awt.Font("Circus", 0, 36)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel4.setForeground(new java.awt.Color(204, 0, 0));
         jLabel4.setText("Tipo de insumo:");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 250, -1, -1));
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 250, -1, -1));
 
         jLabel5.setBackground(new java.awt.Color(0, 0, 0));
         jLabel5.setFont(new java.awt.Font("Circus", 0, 36)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel5.setForeground(new java.awt.Color(204, 0, 0));
         jLabel5.setText("Provedor:");
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 400, -1, -1));
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 400, -1, -1));
 
         jLabel6.setBackground(new java.awt.Color(0, 0, 0));
         jLabel6.setFont(new java.awt.Font("Circus", 0, 36)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel6.setForeground(new java.awt.Color(204, 0, 0));
         jLabel6.setText("Marca:");
-        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 450, -1, -1));
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 450, -1, -1));
 
         jLabel7.setBackground(new java.awt.Color(0, 0, 0));
         jLabel7.setFont(new java.awt.Font("Circus", 0, 36)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel7.setForeground(new java.awt.Color(204, 0, 0));
         jLabel7.setText("Necesita manejo especial?:");
-        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 500, -1, -1));
+        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 500, -1, -1));
 
         jLabel8.setBackground(new java.awt.Color(0, 0, 0));
         jLabel8.setFont(new java.awt.Font("Circus", 0, 36)); // NOI18N
-        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel8.setForeground(new java.awt.Color(204, 0, 0));
         jLabel8.setText("Precio:");
-        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 350, -1, -1));
+        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 350, -1, -1));
 
         siRbtn.setBackground(new java.awt.Color(255, 51, 51));
         siRbtn.setFont(new java.awt.Font("Circus", 1, 24)); // NOI18N
@@ -118,35 +118,35 @@ public class altaInsumo extends javax.swing.JFrame {
                 tipoInsumoTXTActionPerformed(evt);
             }
         });
-        getContentPane().add(tipoInsumoTXT, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 260, 270, 30));
+        getContentPane().add(tipoInsumoTXT, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 260, 240, 30));
 
         precioTXT.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 precioTXTActionPerformed(evt);
             }
         });
-        getContentPane().add(precioTXT, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 360, 270, 30));
+        getContentPane().add(precioTXT, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 360, 270, 30));
 
         marcaTXT.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 marcaTXTActionPerformed(evt);
             }
         });
-        getContentPane().add(marcaTXT, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 460, 270, 30));
+        getContentPane().add(marcaTXT, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 460, 270, 30));
 
         proveedorTXT.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 proveedorTXTActionPerformed(evt);
             }
         });
-        getContentPane().add(proveedorTXT, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 410, 270, 30));
+        getContentPane().add(proveedorTXT, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 410, 270, 30));
 
         nombreTXT.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 nombreTXTActionPerformed(evt);
             }
         });
-        getContentPane().add(nombreTXT, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 310, 270, 30));
+        getContentPane().add(nombreTXT, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 310, 270, 30));
 
         aceptarBtn.setBackground(new java.awt.Color(255, 51, 51));
         aceptarBtn.setFont(new java.awt.Font("Circus", 0, 36)); // NOI18N
@@ -171,7 +171,7 @@ public class altaInsumo extends javax.swing.JFrame {
         getContentPane().add(volverBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 580, 270, 60));
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/regMerch.jpg"))); // NOI18N
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1233, 691));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1233, 930));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
