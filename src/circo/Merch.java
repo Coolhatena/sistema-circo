@@ -6,8 +6,8 @@ package circo;
 public class Merch extends Articulo {
     public String color, material;
     
-    public Merch(String tipo, String nombre, double precio, String color, String material, boolean empacado) {
-        super(tipo, nombre, precio, empacado);
+    public Merch(int id, String tipo, String nombre, double precio, String color, String material, boolean empacado) {
+        super(id, tipo, nombre, precio, empacado);
         this.color = color;
         this.material = material;
     }
@@ -15,7 +15,8 @@ public class Merch extends Articulo {
     public String Datos(){
         String empacadoTexto = (condicion)? "Si" : "No";
         
-        return "\nTipo de Merch: "+tipo+
+        return "\nId del producto: "+id+
+               "\nTipo de Merch: "+tipo+
                "\nNombre: "+nombre+
                "\nPrecio: "+precio+
                "\nColor: "+color+

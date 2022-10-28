@@ -11,7 +11,7 @@ package circo;
  */
 public class Personal {
     String nombre;
-    int horasTrabajo, numeroEmpleado;
+    public int horasTrabajo, numeroEmpleado;
 
 
 public Personal(String nombre, int horasTrabajo, int genero){

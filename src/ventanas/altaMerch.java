@@ -59,94 +59,94 @@ public class altaMerch extends javax.swing.JFrame {
         jLabel3.setFont(new java.awt.Font("Circus", 0, 36)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(204, 0, 0));
         jLabel3.setText("Nombre:");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 300, -1, -1));
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 300, -1, -1));
 
         jLabel4.setBackground(new java.awt.Color(0, 0, 0));
         jLabel4.setFont(new java.awt.Font("Circus", 0, 36)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(204, 0, 0));
         jLabel4.setText("Tipo de mercancia:");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 250, -1, -1));
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 250, -1, -1));
 
         jLabel5.setBackground(new java.awt.Color(0, 0, 0));
         jLabel5.setFont(new java.awt.Font("Circus", 0, 36)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(204, 0, 0));
         jLabel5.setText("Color:");
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 400, -1, -1));
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 400, -1, -1));
 
         jLabel6.setBackground(new java.awt.Color(0, 0, 0));
         jLabel6.setFont(new java.awt.Font("Circus", 0, 36)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(204, 0, 0));
         jLabel6.setText("Material:");
-        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 450, -1, -1));
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 450, -1, -1));
 
         jLabel7.setBackground(new java.awt.Color(0, 0, 0));
         jLabel7.setFont(new java.awt.Font("Circus", 0, 36)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(204, 0, 0));
         jLabel7.setText("Necesita empacado?:");
-        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 500, -1, -1));
+        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 500, -1, -1));
 
         jLabel8.setBackground(new java.awt.Color(0, 0, 0));
         jLabel8.setFont(new java.awt.Font("Circus", 0, 36)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(204, 0, 0));
         jLabel8.setText("Precio de venta:");
-        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 350, -1, -1));
+        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 350, -1, -1));
 
         siRbtn.setBackground(new java.awt.Color(255, 51, 51));
         siRbtn.setFont(new java.awt.Font("Circus", 1, 24)); // NOI18N
-        siRbtn.setForeground(new java.awt.Color(255, 255, 255));
+        siRbtn.setForeground(new java.awt.Color(204, 0, 0));
         siRbtn.setText("SI");
         siRbtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 siRbtnActionPerformed(evt);
             }
         });
-        getContentPane().add(siRbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 510, -1, -1));
+        getContentPane().add(siRbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 510, -1, -1));
 
         noRbtn.setBackground(new java.awt.Color(255, 51, 51));
         noRbtn.setFont(new java.awt.Font("Circus", 1, 24)); // NOI18N
-        noRbtn.setForeground(new java.awt.Color(255, 255, 255));
+        noRbtn.setForeground(new java.awt.Color(204, 0, 0));
         noRbtn.setText("NO");
         noRbtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 noRbtnActionPerformed(evt);
             }
         });
-        getContentPane().add(noRbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 510, -1, -1));
+        getContentPane().add(noRbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 510, -1, -1));
 
         tipoMerchTXT.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 tipoMerchTXTActionPerformed(evt);
             }
         });
-        getContentPane().add(tipoMerchTXT, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 260, 270, 30));
+        getContentPane().add(tipoMerchTXT, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 260, 250, 30));
 
         precioTXT.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 precioTXTActionPerformed(evt);
             }
         });
-        getContentPane().add(precioTXT, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 360, 270, 30));
+        getContentPane().add(precioTXT, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 360, 270, 30));
 
         materialTXT.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 materialTXTActionPerformed(evt);
             }
         });
-        getContentPane().add(materialTXT, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 460, 270, 30));
+        getContentPane().add(materialTXT, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 460, 270, 30));
 
         colorTXT.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 colorTXTActionPerformed(evt);
             }
         });
-        getContentPane().add(colorTXT, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 410, 270, 30));
+        getContentPane().add(colorTXT, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 410, 270, 30));
 
         nombreTXT.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 nombreTXTActionPerformed(evt);
             }
         });
-        getContentPane().add(nombreTXT, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 310, 270, 30));
+        getContentPane().add(nombreTXT, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 310, 270, 30));
 
         aceptarBtn.setBackground(new java.awt.Color(255, 51, 51));
         aceptarBtn.setFont(new java.awt.Font("Circus", 0, 36)); // NOI18N
@@ -157,7 +157,7 @@ public class altaMerch extends javax.swing.JFrame {
                 aceptarBtnActionPerformed(evt);
             }
         });
-        getContentPane().add(aceptarBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 580, 270, 60));
+        getContentPane().add(aceptarBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 580, 270, 60));
 
         volverBtn.setBackground(new java.awt.Color(255, 51, 51));
         volverBtn.setFont(new java.awt.Font("Circus", 0, 36)); // NOI18N
@@ -168,10 +168,12 @@ public class altaMerch extends javax.swing.JFrame {
                 volverBtnActionPerformed(evt);
             }
         });
-        getContentPane().add(volverBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 580, 270, 60));
+        getContentPane().add(volverBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 580, 270, 60));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/regMerch.jpg"))); // NOI18N
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1233, 691));
+        jLabel1.setToolTipText("");
+        jLabel1.setVerticalAlignment(javax.swing.SwingConstants.TOP);
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -110, 1080, 800));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -206,7 +208,8 @@ public class altaMerch extends javax.swing.JFrame {
             double precio = Double.parseDouble( precioTXT.getText() );
             boolean empacado = ( siRbtn.isSelected() );
             
-            main.merch.add( new Merch(tipoMerch, nombre, precio, color, material, empacado) );
+            main.merch.add( new Merch(main.idProducto, tipoMerch, nombre, precio, color, material, empacado) );
+            main.idProducto++;
             JOptionPane.showMessageDialog(rootPane, "Merch registrada correctamente");
             this.dispose();
             

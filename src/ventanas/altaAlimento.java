@@ -92,7 +92,7 @@ public class altaAlimento extends javax.swing.JFrame {
 
         siRbtn.setBackground(new java.awt.Color(255, 51, 51));
         siRbtn.setFont(new java.awt.Font("Circus", 1, 24)); // NOI18N
-        siRbtn.setForeground(new java.awt.Color(255, 255, 255));
+        siRbtn.setForeground(new java.awt.Color(204, 0, 0));
         siRbtn.setText("SI");
         siRbtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -103,7 +103,7 @@ public class altaAlimento extends javax.swing.JFrame {
 
         noRbtn.setBackground(new java.awt.Color(255, 51, 51));
         noRbtn.setFont(new java.awt.Font("Circus", 1, 24)); // NOI18N
-        noRbtn.setForeground(new java.awt.Color(255, 255, 255));
+        noRbtn.setForeground(new java.awt.Color(204, 0, 0));
         noRbtn.setText("NO");
         noRbtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -171,7 +171,8 @@ public class altaAlimento extends javax.swing.JFrame {
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 290, -1, -1));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/RegAlim.jpg"))); // NOI18N
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 960));
+        jLabel1.setVerticalAlignment(javax.swing.SwingConstants.TOP);
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -60, 1080, 750));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -209,7 +210,8 @@ public class altaAlimento extends javax.swing.JFrame {
             double precio = Double.parseDouble( precioTXT.getText() );
             boolean refrigeracion = ( siRbtn.isSelected() );
             
-            main.alimentos.add( new Alimentos(tipoAlimento, nombre, precio, proveedor, tipoPreparacion, refrigeracion) );
+            main.alimentos.add( new Alimentos(main.idProducto ,tipoAlimento, nombre, precio, proveedor, tipoPreparacion, refrigeracion) );
+            main.idProducto++;
             JOptionPane.showMessageDialog(rootPane, "Alimento registrado correctamente");
             this.dispose();
             

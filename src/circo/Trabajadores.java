@@ -5,8 +5,6 @@
  */
 package circo;
 
-import java.util.Scanner;
-
 /** @author zunni*/
 
 public class Trabajadores extends Personal {

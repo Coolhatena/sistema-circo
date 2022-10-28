@@ -18,6 +18,7 @@ import javax.swing.JOptionPane;
  * @author Erick
  */
 public class main extends javax.swing.JFrame {
+    static int idProducto = 0;
     static ArrayList<Trabajadores> trabajadores = new ArrayList<>();
     static ArrayList<Artistas> artistas = new ArrayList<>();
     
@@ -62,7 +63,7 @@ public class main extends javax.swing.JFrame {
                 listaArticulosBtnActionPerformed(evt);
             }
         });
-        getContentPane().add(listaArticulosBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 520, 340, 80));
+        getContentPane().add(listaArticulosBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 490, 340, 80));
 
         altaArticuloBtn.setBackground(new java.awt.Color(255, 51, 51));
         altaArticuloBtn.setFont(new java.awt.Font("Circus", 0, 36)); // NOI18N
@@ -73,7 +74,7 @@ public class main extends javax.swing.JFrame {
                 altaArticuloBtnActionPerformed(evt);
             }
         });
-        getContentPane().add(altaArticuloBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 420, 340, 80));
+        getContentPane().add(altaArticuloBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 390, 340, 80));
 
         altaEmpleadoBtn.setBackground(new java.awt.Color(255, 51, 51));
         altaEmpleadoBtn.setFont(new java.awt.Font("Circus", 0, 36)); // NOI18N
@@ -84,7 +85,7 @@ public class main extends javax.swing.JFrame {
                 altaEmpleadoBtnActionPerformed(evt);
             }
         });
-        getContentPane().add(altaEmpleadoBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 420, 350, 80));
+        getContentPane().add(altaEmpleadoBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 390, 350, 80));
 
         salirBtn.setBackground(new java.awt.Color(255, 51, 51));
         salirBtn.setFont(new java.awt.Font("Circus", 0, 36)); // NOI18N
@@ -95,7 +96,7 @@ public class main extends javax.swing.JFrame {
                 salirBtnActionPerformed(evt);
             }
         });
-        getContentPane().add(salirBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 610, 230, 70));
+        getContentPane().add(salirBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 610, 230, 70));
 
         ListaEmpleadoBtn.setBackground(new java.awt.Color(255, 51, 51));
         ListaEmpleadoBtn.setFont(new java.awt.Font("Circus", 0, 36)); // NOI18N
@@ -106,10 +107,11 @@ public class main extends javax.swing.JFrame {
                 ListaEmpleadoBtnActionPerformed(evt);
             }
         });
-        getContentPane().add(ListaEmpleadoBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 520, 350, 80));
+        getContentPane().add(ListaEmpleadoBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 490, 350, 80));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/principal.jpg"))); // NOI18N
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1080, 880));
+        jLabel1.setVerticalAlignment(javax.swing.SwingConstants.TOP);
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -90, 1080, 840));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -117,12 +119,14 @@ public class main extends javax.swing.JFrame {
     private void listaArticulosBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_listaArticulosBtnActionPerformed
         listaArticulos ventana = new listaArticulos();
         ventana.setVisible(true);
+        ventana.setResizable(false);
         ventana.setLocationRelativeTo(null);
     }//GEN-LAST:event_listaArticulosBtnActionPerformed
 
     private void altaArticuloBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_altaArticuloBtnActionPerformed
         altaArticulo ventana = new altaArticulo();
         ventana.setVisible(true);
+        ventana.setResizable(false);
         ventana.setLocationRelativeTo(null);
         
     }//GEN-LAST:event_altaArticuloBtnActionPerformed
@@ -130,6 +134,7 @@ public class main extends javax.swing.JFrame {
     private void altaEmpleadoBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_altaEmpleadoBtnActionPerformed
         altaEmpleado ventana = new altaEmpleado();
         ventana.setVisible(true);
+        ventana.setResizable(false);
         ventana.setLocationRelativeTo(null);
     }//GEN-LAST:event_altaEmpleadoBtnActionPerformed
 
@@ -143,6 +148,7 @@ public class main extends javax.swing.JFrame {
     private void ListaEmpleadoBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ListaEmpleadoBtnActionPerformed
         listaEmpleados ventana = new listaEmpleados();
         ventana.setVisible(true);
+        ventana.setResizable(false);
         ventana.setLocationRelativeTo(null);
     }//GEN-LAST:event_ListaEmpleadoBtnActionPerformed
 

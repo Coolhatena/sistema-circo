@@ -93,7 +93,7 @@ public class altaInsumo extends javax.swing.JFrame {
 
         siRbtn.setBackground(new java.awt.Color(255, 51, 51));
         siRbtn.setFont(new java.awt.Font("Circus", 1, 24)); // NOI18N
-        siRbtn.setForeground(new java.awt.Color(255, 255, 255));
+        siRbtn.setForeground(new java.awt.Color(204, 0, 0));
         siRbtn.setText("SI");
         siRbtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -104,7 +104,7 @@ public class altaInsumo extends javax.swing.JFrame {
 
         noRbtn.setBackground(new java.awt.Color(255, 51, 51));
         noRbtn.setFont(new java.awt.Font("Circus", 1, 24)); // NOI18N
-        noRbtn.setForeground(new java.awt.Color(255, 255, 255));
+        noRbtn.setForeground(new java.awt.Color(204, 0, 0));
         noRbtn.setText("NO");
         noRbtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -157,7 +157,7 @@ public class altaInsumo extends javax.swing.JFrame {
                 aceptarBtnActionPerformed(evt);
             }
         });
-        getContentPane().add(aceptarBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 580, 270, 60));
+        getContentPane().add(aceptarBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 580, 270, 60));
 
         volverBtn.setBackground(new java.awt.Color(255, 51, 51));
         volverBtn.setFont(new java.awt.Font("Circus", 0, 36)); // NOI18N
@@ -168,10 +168,11 @@ public class altaInsumo extends javax.swing.JFrame {
                 volverBtnActionPerformed(evt);
             }
         });
-        getContentPane().add(volverBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 580, 270, 60));
+        getContentPane().add(volverBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 580, 270, 60));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/regMerch.jpg"))); // NOI18N
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1233, 930));
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/altaInsumo.jpg"))); // NOI18N
+        jLabel2.setVerticalAlignment(javax.swing.SwingConstants.TOP);
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -110, 1080, 800));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -214,7 +215,8 @@ public class altaInsumo extends javax.swing.JFrame {
             double precio = Double.parseDouble( precioTXT.getText() );
             boolean manejo = ( siRbtn.isSelected() );
 
-            main.insumos.add( new Insumo(tipoMerch, nombre, precio, proveedor, marca, manejo) );
+            main.insumos.add( new Insumo(main.idProducto, tipoMerch, nombre, precio, proveedor, marca, manejo) );
+            main.idProducto++;
             JOptionPane.showMessageDialog(rootPane, "Insumo registrada correctamente");
             this.dispose();
 

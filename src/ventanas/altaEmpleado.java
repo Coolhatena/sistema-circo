@@ -69,7 +69,8 @@ public class altaEmpleado extends javax.swing.JFrame {
         getContentPane().add(trabajadorBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 420, 310, 100));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/RegEmpl.jpg"))); // NOI18N
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1233, 920));
+        jLabel1.setVerticalAlignment(javax.swing.SwingConstants.TOP);
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -90, 1080, 780));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
