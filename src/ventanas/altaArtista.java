@@ -52,35 +52,34 @@ public class altaArtista extends javax.swing.JFrame {
 
         horasTrabajoTXT.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                horasTrabajoTXTActionPerformed(evt);
+                
             }
         });
         getContentPane().add(horasTrabajoTXT, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 350, 100, 30));
 
         vestuarioTXT.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                vestuarioTXTActionPerformed(evt);
-            }
+                            }
         });
         getContentPane().add(vestuarioTXT, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 500, 270, 30));
 
         nombreTXT.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                nombreTXTActionPerformed(evt);
+                
             }
         });
         getContentPane().add(nombreTXT, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 300, 270, 30));
 
         seguridadTXT.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                seguridadTXTActionPerformed(evt);
+                
             }
         });
         getContentPane().add(seguridadTXT, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 450, 270, 30));
 
         tipoShowTXT.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                tipoShowTXTActionPerformed(evt);
+                
             }
         });
         getContentPane().add(tipoShowTXT, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 410, 270, 30));
@@ -128,7 +127,7 @@ public class altaArtista extends javax.swing.JFrame {
 
         numeroEmpleadoTXT.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                numeroEmpleadoTXTActionPerformed(evt);
+                
             }
         });
         getContentPane().add(numeroEmpleadoTXT, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 250, 100, 30));
